@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0fc6687c78.js" crossorigin="anonymous"></script>
+    <script src="app.js" async></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <img
+            src="./assets/profilereal.jpeg"
+            class="profile-img"
+            alt=""
+            data-testid="slackDisplayImage"
+          />
+         
+        </div>
+        <div class="info">
+          <p data-testid="slackUserName" class="colored username">WaleBnji</p>
+          <p data-testid="myTrack" class="colored track">Frontend</p>
+          <div class='time-container'>
+
+              <p data-testid="currentDayOfTheWeek" class="day colored">Loading</p>
+              <p data-testid="currentUTCTime" class="time colored"><span class='hour'>00:</span><span class='minute'>00:</span><span class='seconds'>00:</span><span class='milliseconds'>000</span></p>
+          </div>
+        </div>
+        <div class="link-container">
+         <a href="https://github.com/WaleBnji/HNGx" target='_blank' class="link" data-testid=“githubURL”><i class="fa-brands fa-github"></i>Github</a> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
